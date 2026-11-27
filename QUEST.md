@@ -23,10 +23,10 @@ You are an E-Rank Engineer. Your Sentinel is asleep. Clear the gates to wake it.
 ---
 
 ## Gate 0: Awakening (Nov 27-28)
-- [ ] 10 XP: Git identity set (`git config --global --list` shows it)
-- [ ] 30 XP: Skeleton pushed to GitHub
-- [ ] 20 XP: `pytest -q` runs in your virtual environment
-- [ ] **BOSS, 40 XP, "First Blood":** tick Phase 0 in PLAN.md, commit and push it yourself
+- [x] 10 XP: Git identity set (`git config --global --list` shows it)
+- [x] 30 XP: Skeleton pushed to GitHub
+- [x] 20 XP: `pytest -q` runs in your virtual environment
+- [x] **BOSS, 40 XP, "First Blood":** tick Phase 0 in PLAN.md, commit and push it yourself
 
 **Clear reward: E-Rank**
 
