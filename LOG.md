@@ -11,7 +11,7 @@ Three lines after every session. This is also great interview material.
 
 ---
 
-### 2026-11-26
+### 2026-11-27
 - Did: created repo and addded files
 - Learned: how to create a repo and push files
 - Blocked on / question: NO
