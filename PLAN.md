@@ -4,8 +4,8 @@ Rule: commit every day. Write 3 lines in LOG.md after every session.
 Stuck for 30 minutes? Write the exact question in LOG.md, then look it up or ask.
 
 ## Phase 0: set up (Nov 26-27)
-- [ ] Create the GitHub repo `sentinel` and push this skeleton. Proof: the link works.
-- [ ] Create a virtual environment in WSL and install `requirements.txt`. Proof: `pytest` runs.
+- [x] Create the GitHub repo `sentinel` and push this skeleton. Proof: the link works.
+- [x] Create a virtual environment in WSL and install `requirements.txt`. Proof: `pytest` runs.
 
 ## Phase 1: it checks (Nov 28 - Dec 4)
 - [ ] `check_http` reports up or down plus latency. Proof: good URL and dead URL both reported correctly.
