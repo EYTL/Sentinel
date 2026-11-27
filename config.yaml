@@ -1,0 +1,19 @@
+# What Sentinel watches. Change these values as you build.
+
+interval_seconds: 10        # how often to run the checks
+failure_threshold: 3        # consecutive failures before recovering
+cooldown_seconds: 60        # wait after a restart before trying again
+incident_log: incidents.log
+
+services:
+  - name: demo-service
+    type: http
+    url: http://localhost:5000/health
+    container: demo-service     # Docker container to restart if it fails
+    timeout_seconds: 3
+
+  # Later: add EMS or the cost optimizer here.
+  # - name: ems
+  #   type: http
+  #   url: http://localhost:8010/login/
+  #   container: ems
